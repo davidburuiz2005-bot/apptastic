@@ -22,6 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
     margin-bottom: 50px;
 }
 
@@ -263,4 +264,57 @@ body {
 .social-icons img {
     width: 25px;
     margin-left: 10px;
+}
+@media (max-width: 1279px){
+    .brand-bar{
+        background-color: aquamarine;
+    }
+
+    .services-container{
+        background-color: aquamarine;
+    }
+
+    .portfolio-section{
+        background-color: aquamarine;
+    }
+
+    .footer-content{
+        background-color: aquamarine;
+    }
+}
+
+@media (max-width: 920px){
+    .brand-bar{
+        background-color: rgb(235, 39, 193);
+    }
+
+    .services-container{
+        background-color: rgb(235, 39, 193);
+    }
+
+    .portfolio-section{
+        background-color: rgb(235, 39, 193);
+    }
+
+    .footer-content{
+        background-color: rgb(235, 39, 193);
+    }
+}
+
+@media (max-width: 768px){
+    .brand-bar{
+        background-color: rgb(20, 42, 204);
+    }
+
+    .services-container{
+        background-color: rgb(20, 42, 204);
+    }
+
+    .portfolio-section{
+        background-color: rgb(20, 42, 204);
+    }
+
+    .footer-content{
+        background-color: rgb(20, 42, 204);
+    }
 }
